@@ -22,7 +22,7 @@ function playGame(playerSelection) {
     ) {
         return "You Win! " + playerSelection + " beats " + computerSelection;
     } else {
-        return "You Loose!" + computerSelection + " beats " + playerSelection;
+        return "You Loose! " + computerSelection + " beats " + playerSelection;
     }
 }
 //These if and else statements determine the win, tie or loss conditions based on what the player selection is vs the computers random selection.
